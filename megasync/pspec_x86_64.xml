@@ -1,0 +1,42 @@
+<PISI>
+    <Source>
+        <Name>megasync</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Packager>
+        <License>MEGA LIMITED CODE REVIEW LICENCE</License>
+        <PartOf>network.clients</PartOf>
+        <Summary xml:lang="en">Sync your files to your Mega account.</Summary>
+        <Description xml:lang="en">Easy automated syncing between your computers and your MEGA Cloud Drive.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>megasync</Name>
+        <Summary xml:lang="en">Sync your files to your Mega account.</Summary>
+        <Description xml:lang="en">Easy automated syncing between your computers and your MEGA Cloud Drive.
+</Description>
+        <PartOf>network.clients</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/megasync.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/mega.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/mega.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/mega.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/mega.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/mega.png</Path>
+            <Path fileType="data">/usr/share/licenses/megasync/LICENCE.md</Path>
+            <Path fileType="data">/usr/share/licenses/megasync/terms.txt</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-06-25</Date>
+            <Version>3.1.2.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
