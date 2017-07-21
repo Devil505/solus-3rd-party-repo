@@ -1,9 +1,9 @@
 name       : megasync
-version    : 3.1.2.0
+version    : 3.1.4.0
 release    : 1
 source     :
-    - https://github.com/meganz/MEGAsync/archive/v3.1.2.0_Linux.tar.gz : e4d56bc882ad21874145294f925ee8e42982d1c65027d093b1e641e10ff45d89
-    - https://github.com/meganz/sdk/archive/V3.1.2.tar.gz: 59146dd57a744cebdc492a969cc27ab52296f37a064f4f9e642bcceee7174fd1
+    - https://github.com/meganz/MEGAsync/archive/v3.1.4.0_Linux.tar.gz : 35b9765122dfcb38d6ce1e423fb42afd9869dddb65b8a333ba87dbebabcf9e8e
+    - https://github.com/meganz/sdk/archive/V3.1.8.tar.gz: 395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370
 license    : MEGA LIMITED CODE REVIEW LICENCE
 component  : network.clients
 summary    : Sync your files to your Mega account.
