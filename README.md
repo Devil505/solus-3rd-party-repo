@@ -5,6 +5,8 @@ This is my Solus 3rd-party repo source.
 
 <u>Packages availables:</u>
 
+Download them and install them with sudo eopkg it package-X.X.X-X-X-x6_64.eopkg
+
 - megasync
 
   _Easy automated syncing between your computers and your MEGA Cloud Drive._
