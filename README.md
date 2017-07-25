@@ -9,9 +9,9 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x6_64.eopkg
 
 - duckietv
 
- _DuckieTV is an application that takes care of TV-Show addicts by providing a personalized TV-Show calendar._
+  _DuckieTV is an application that takes care of TV-Show addicts by providing a personalized TV-Show calendar._
 
- eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/25-07-2017/duckietv-1.1.4-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/25-07-2017/duckietv-1.1.4-1-1-x86_64.eopkg>
 
 - megasync
 
