@@ -1,11 +1,13 @@
 # solus-3rd-party-repo
 
 
-This is my Solus 3rd-party repo source.
+This is my Solus 3rd-party repo source. 
+
+*These packages are not official so not reviewed or supported by the Solus team.*
 
 <u>Packages availables:</u>
 
-Download them and install them with sudo eopkg it package-X.X.X-X-X-x6_64.eopkg
+Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
 - duckietv
 
