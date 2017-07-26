@@ -1,0 +1,25 @@
+name       : duckietv
+version    : 1.1.4
+release    : 1
+source     :
+    - https://github.com/SchizoDuckie/DuckieTV/releases/download/1.1.4/DuckieTV-1.1.4-Linux-x64.tar.gz : 017f616d443c8223fdf29b7026e72a1ea4588542878c02f3304155c0cf09e280
+license    : MIT
+component  : network.web
+summary    : A personalized calendar that tracks the shows you like
+description: |
+    DuckieTV is an application that takes care of TV-Show addicts by providing a personalized TV-Show calendar.
+rundeps  :
+    - nodejs
+setup      : |
+build      : | 
+install    : |
+    install -d $installdir/opt
+    mkdir -p $installdir/opt
+    cd $workdir
+    cp -r ../DuckieTV $installdir/opt/
+    mkdir -p "$installdir"/usr/share/applications
+    cp ../share/applications/DuckieTV.desktop $installdir/usr/share/applications
+    mkdir -p $installdir/usr/bin/
+    ln -s /opt/DuckieTV/DuckieTV $installdir/usr/bin/DuckieTV
+    mkdir -p $installdir/usr/share/pixmaps
+    cp ../share/pixmaps/DuckieTV.xpm $installdir/usr/share/pixmaps
