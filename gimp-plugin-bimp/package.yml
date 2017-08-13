@@ -1,0 +1,21 @@
+name       : gimp-plugin-bimp
+version    : 1.18
+release    : 1
+source     :
+    - https://github.com/alessandrofrancesconi/gimp-plugin-bimp/archive/v1.18.tar.gz : f941586b5ce06248d907c8c224573441ba908a7e96adec104b72ee96bf8441a8
+license    : Free
+component  : multimedia.graphics
+summary    : BIMP. Batch Image Manipulation Plugin for GIMP.
+description: |
+    With BIMP you can apply a set of GIMP manipulations on groups of images.
+builddeps  :
+    - pkgconfig(gimp-2.0)
+rundeps :
+    - gimp
+setup      : |
+build      : |
+    %make
+install    : |
+    install -dm755 $installdir/usr/lib/gimp/2.0/plug-ins/
+    cp  ./bin/bimp $installdir/usr/lib/gimp/2.0/plug-ins/
+    cp -Rf ./bimp-locale/ $installdir/usr/lib/gimp/2.0/plug-ins/

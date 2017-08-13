@@ -1,0 +1,21 @@
+name       : screencast
+version    : 0.9.0
+release    : 1
+source     :
+    - https://github.com/artemanufrij/screencast/archive/0.1.8.tar.gz : 51970c8daf4f95a2ae4a7d048343164cdba9030de4c31618737fe8ef7177f78d
+license    : GPL-3.0
+component  : multimedia.video
+summary    : Simple screen recorder
+description: |
+    Simple screen recorder, written especially for elementary OS.
+builddeps  :
+    - pkgconfig(granite)
+    - pkgconfig(gstreamer-pbutils-1.0)
+    - pkgconfig(libwnck-3.0)
+    - pkgconfig(xtst)
+setup      : |
+build      : |
+    %cmake
+    %make
+install    : |
+    %make_install

@@ -26,3 +26,55 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
   _A front-end to manage easily your retro games._
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/07-2017/gem-0.7.1-1-1-x86_64.eopkg>
+
+- bookworm
+
+  _A simple ebook reader_
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/bookworm-0.9.0-1-1-x86_64.eopkg>
+
+- frogr
+
+  _A flickr remote organizer for GNOME_
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/frogr-1.3-1-1-x86_64.eopkg>
+
+- gimp-lensfun
+
+  _GIMP plugin for correcting lens distortion using the lensfun library and database._
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/gimp-lensfun-0.2.4-1-1-x86_64.eopkg>
+
+- gimp--plugin-beautify
+
+  _GIMP Beautify is a set of GIMP plug-ins for quickly and easily beautify photo._
+
+  *Don't forget to install textures as explained here: <https://github.com/hejiann/beautify/wiki/Textures-Download>*
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/gimp-plugin-beautify-0.5.3-1-1-x86_64.eopkg>
+
+- gimp-plugin-bimp
+
+  _BIMP. Batch Image Manipulation Plugin for GIMP._
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/gimp-plugin-bimp-1.18-1-1-x86_64.eopkg>
+
+- karim
+
+  _Graphical interface for command-line tool youtube-dl_
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/karim-0.1.1-1-1-x86_64.eopkg>
+
+- quilter
+
+  _Focus on your writing._
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/quilter-1.2.1-1-1-x86_64.eopkg>
+
+- screencast
+
+  _Simple screen recorder_
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/screencast-0.9.0-1-1-x86_64.eopkg>
+
+

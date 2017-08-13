@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>gimp-plugin-beautify</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>multimedia.graphics</PartOf>
+        <Summary xml:lang="en">GIMP Beautify is a set of GIMP plug-ins for quickly and easily beautify photo</Summary>
+        <Description xml:lang="en">GIMP Beautify is a set of GIMP plug-ins for quickly and easily beautify photo.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>gimp-plugin-beautify</Name>
+        <Summary xml:lang="en">GIMP Beautify is a set of GIMP plug-ins for quickly and easily beautify photo</Summary>
+        <Description xml:lang="en">GIMP Beautify is a set of GIMP plug-ins for quickly and easily beautify photo.
+</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/gimp/2.0/plug-ins/beautify</Path>
+            <Path fileType="library">/usr/lib/gimp/2.0/plug-ins/border</Path>
+            <Path fileType="library">/usr/lib/gimp/2.0/plug-ins/simple-border</Path>
+            <Path fileType="library">/usr/lib/gimp/2.0/plug-ins/skin-whitening</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-08-12</Date>
+            <Version>0.5.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

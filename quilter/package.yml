@@ -1,0 +1,21 @@
+name       : quilter
+version    : 1.2.1
+release    : 1
+source     :
+    - https://github.com/lainsce/quilter/archive/1.2.1.tar.gz : 1b9aca6858bc42cf62fc8c97b24273014d8c44025a1f16172204391cab38a1be
+license    : GPL-3.0
+component  : editor
+summary    : Focus on your writing.
+description: |
+    Focus on your writing.
+builddeps  :
+    - pkgconfig(granite)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(gtksourceview-3.0)
+    - meson
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

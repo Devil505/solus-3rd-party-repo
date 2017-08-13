@@ -1,0 +1,45 @@
+<PISI>
+    <Source>
+        <Name>quilter</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>editor</PartOf>
+        <Summary xml:lang="en">Focus on your writing.</Summary>
+        <Description xml:lang="en">Focus on your writing.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>quilter</Name>
+        <Summary xml:lang="en">Focus on your writing.</Summary>
+        <Description xml:lang="en">Focus on your writing.
+</Description>
+        <PartOf>editor</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/com.github.lainsce.quilter.desktop</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/com.github.lainsce.quilter.gschema.xml</Path>
+            <Path fileType="data">/usr/share/gtksourceview-3.0/styles/quilter-dark.xml</Path>
+            <Path fileType="data">/usr/share/gtksourceview-3.0/styles/quilter.xml</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/com.github.lainsce.quilter.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/com.github.lainsce.quilter.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/com.github.lainsce.quilter.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/com.github.lainsce.quilter.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/com.github.lainsce.quilter.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/com.github.lainsce.quilter.svg</Path>
+            <Path fileType="data">/usr/share/metainfo/com.github.lainsce.quilter.appdata.xml</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-07-25</Date>
+            <Version>1.2.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

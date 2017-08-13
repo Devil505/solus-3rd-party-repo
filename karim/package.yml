@@ -1,0 +1,23 @@
+name       : karim
+version    : 0.1.1
+release    : 1
+source     :
+    - https://github.com/robertsanseries/karim/archive/0.1.1.tar.gz : 37bd69c358471a74bd281a5d55b0a5d2e0980081165a1ae7180a3cf2649463eb
+license    : GPL-3.0
+component  : network.download
+summary    : Graphical interface for command-line tool youtube-dl
+description: |
+    Karim is a graphical interface to the youtube-dl command-line tool. Built from the ground up for the elementary operating system.
+builddeps  :
+    - pkgconfig(libgda-5.0) 
+    - pkgconfig(granite)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(sqlite3)
+    - meson
+    - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install
