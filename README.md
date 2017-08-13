@@ -45,7 +45,7 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/gimp-lensfun-0.2.4-1-1-x86_64.eopkg>
 
-- gimp--plugin-beautify
+- gimp-plugin-beautify
 
   _GIMP Beautify is a set of GIMP plug-ins for quickly and easily beautify photo._
 
