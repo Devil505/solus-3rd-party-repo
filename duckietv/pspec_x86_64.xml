@@ -98,6 +98,10 @@
             <Path fileType="data">/opt/DuckieTV/_locales/zh_CN/messages.json</Path>
             <Path fileType="data">/opt/DuckieTV/_locales/zh_cn.json</Path>
             <Path fileType="data">/opt/DuckieTV/credits.html</Path>
+            <Path fileType="data">/opt/DuckieTV/dist/CRUD.SqliteAdapter.js</Path>
+            <Path fileType="data">/opt/DuckieTV/dist/CRUD.background.bootstrap.js</Path>
+            <Path fileType="data">/opt/DuckieTV/dist/CRUD.entities.js</Path>
+            <Path fileType="data">/opt/DuckieTV/dist/CRUD.js</Path>
             <Path fileType="data">/opt/DuckieTV/dist/app.js</Path>
             <Path fileType="data">/opt/DuckieTV/dist/background.js</Path>
             <Path fileType="data">/opt/DuckieTV/dist/deps.js</Path>
@@ -115,6 +119,8 @@
             <Path fileType="data">/opt/DuckieTV/img/favicon-inverted.ico</Path>
             <Path fileType="data">/opt/DuckieTV/img/flags.png</Path>
             <Path fileType="data">/opt/DuckieTV/img/icon-close.png</Path>
+            <Path fileType="data">/opt/DuckieTV/img/icon-jackett-white.png</Path>
+            <Path fileType="data">/opt/DuckieTV/img/icon-jackett.png</Path>
             <Path fileType="data">/opt/DuckieTV/img/icon-magnet.png</Path>
             <Path fileType="data">/opt/DuckieTV/img/icon-maximize.png</Path>
             <Path fileType="data">/opt/DuckieTV/img/icon-minimize.png</Path>
@@ -146,6 +152,12 @@
             <Path fileType="data">/opt/DuckieTV/img/logo/icon64.png</Path>
             <Path fileType="data">/opt/DuckieTV/img/opensubtitles.png</Path>
             <Path fileType="data">/opt/DuckieTV/img/spinner.gif</Path>
+            <Path fileType="data">/opt/DuckieTV/img/torrentclients/aria2-colored.png</Path>
+            <Path fileType="data">/opt/DuckieTV/img/torrentclients/aria2-small.png</Path>
+            <Path fileType="data">/opt/DuckieTV/img/torrentclients/aria2.png</Path>
+            <Path fileType="data">/opt/DuckieTV/img/torrentclients/biglybt-colored.png</Path>
+            <Path fileType="data">/opt/DuckieTV/img/torrentclients/biglybt-small.png</Path>
+            <Path fileType="data">/opt/DuckieTV/img/torrentclients/biglybt.png</Path>
             <Path fileType="data">/opt/DuckieTV/img/torrentclients/deluge-colored.png</Path>
             <Path fileType="data">/opt/DuckieTV/img/torrentclients/deluge-small.png</Path>
             <Path fileType="data">/opt/DuckieTV/img/torrentclients/deluge.png</Path>
@@ -235,23 +247,24 @@
             <Path fileType="data">/opt/DuckieTV/package.json</Path>
             <Path fileType="data">/opt/DuckieTV/resources.pak</Path>
             <Path fileType="data">/opt/DuckieTV/snapshot_blob.bin</Path>
+            <Path fileType="data">/opt/DuckieTV/standalone-background.js</Path>
             <Path fileType="data">/opt/DuckieTV/tab.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/actionBar.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/backgroundRotator.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/chrome-top-sites.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/datepicker.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/dialogs/backup.html</Path>
-            <Path fileType="data">/opt/DuckieTV/templates/dialogs/customSearchEngine.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/dialogs/fastSearch.html</Path>
-            <Path fileType="data">/opt/DuckieTV/templates/dialogs/shareTorrentSearchEngine.html</Path>
+            <Path fileType="data">/opt/DuckieTV/templates/dialogs/jackettSearchEngine.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/dialogs/subtitle.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/dialogs/torrent.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/dialogs/torrent2.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/episodeDownloaded.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/episodeWatched.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/event.html</Path>
-            <Path fileType="data">/opt/DuckieTV/templates/formly-forms/CustomSearchEngine.json</Path>
+            <Path fileType="data">/opt/DuckieTV/templates/formly-forms/JackettSearchEngine.json</Path>
             <Path fileType="data">/opt/DuckieTV/templates/formly-forms/SerieSettings.json</Path>
+            <Path fileType="data">/opt/DuckieTV/templates/formly-forms/SynologySettings.json</Path>
             <Path fileType="data">/opt/DuckieTV/templates/formly-forms/TorrentClientSettings.json</Path>
             <Path fileType="data">/opt/DuckieTV/templates/querymonitor.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/serieHeader.html</Path>
@@ -262,14 +275,16 @@
             <Path fileType="data">/opt/DuckieTV/templates/serieslist/tools/favorites.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/serieslist/trakt-searching.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/serieslist/trakt-trending.html</Path>
-            <Path fileType="data">/opt/DuckieTV/templates/settings/Ktorrent.html</Path>
+            <Path fileType="data">/opt/DuckieTV/templates/settings/aria2.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/auto-download.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/backup-import.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/backup.html</Path>
+            <Path fileType="data">/opt/DuckieTV/templates/settings/biglybt.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/calendar.html</Path>
-            <Path fileType="data">/opt/DuckieTV/templates/settings/custom-search.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/deluge.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/display.html</Path>
+            <Path fileType="data">/opt/DuckieTV/templates/settings/jackett-search.html</Path>
+            <Path fileType="data">/opt/DuckieTV/templates/settings/ktorrent.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/language.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/miscellaneous.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/qbittorrent32plus.html</Path>
@@ -278,6 +293,7 @@
             <Path fileType="data">/opt/DuckieTV/templates/settings/serieSettings.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/subtitles.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/sync.html</Path>
+            <Path fileType="data">/opt/DuckieTV/templates/settings/synology.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/tixati.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/torrent-search.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/settings/torrent.html</Path>
@@ -299,6 +315,7 @@
             <Path fileType="data">/opt/DuckieTV/templates/sidepanel/serie-overview.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/sidepanel/settings.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/sidepanel/sidepanel.html</Path>
+            <Path fileType="data">/opt/DuckieTV/templates/sidepanel/synology.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/sidepanel/torrent-details.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/sidepanel/torrentRemoteControl.html</Path>
             <Path fileType="data">/opt/DuckieTV/templates/sidepanel/trakt-serie-details.html</Path>
@@ -318,8 +335,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2017-07-24</Date>
-            <Version>1.1.4</Version>
+            <Date>2017-10-15</Date>
+            <Version>1.1.5</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
             <Email>devil505linux@gmail.com</Email>

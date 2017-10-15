@@ -1,8 +1,8 @@
 name       : duckietv
-version    : 1.1.4
+version    : 1.1.5
 release    : 1
 source     :
-    - https://github.com/SchizoDuckie/DuckieTV/releases/download/1.1.4/DuckieTV-1.1.4-Linux-x64.tar.gz : 017f616d443c8223fdf29b7026e72a1ea4588542878c02f3304155c0cf09e280
+    - https://github.com/SchizoDuckie/DuckieTV/releases/download/1.1.5/DuckieTV-1.1.5-linux-x64.tar.gz : ded2eb377c8730adb74f0248c786fc35bee0503f193c6ef42b77c11c1b89a92c
 license    : MIT
 component  : network.web
 summary    : A personalized calendar that tracks the shows you like
