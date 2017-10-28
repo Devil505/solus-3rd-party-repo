@@ -71,4 +71,10 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/screencast-0.9.0-1-1-x86_64.eopkg>
 
+- spice-up
+
+  _Spice-up is a modern and intuitive desktop presentation app based upon SpiceOfDesign's presentation concept._
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-10-2017/spice-up-1.0.1-1-1-x86_64.eopkg>
+
 
