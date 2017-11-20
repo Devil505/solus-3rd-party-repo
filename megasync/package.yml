@@ -1,9 +1,9 @@
 name       : megasync
-version    : 3.1.4.0
-release    : 1
+version    : 3.5.0.0
+release    : 2
 source     :
-    - https://github.com/meganz/MEGAsync/archive/v3.1.4.0_Linux.tar.gz : 35b9765122dfcb38d6ce1e423fb42afd9869dddb65b8a333ba87dbebabcf9e8e
-    - https://github.com/meganz/sdk/archive/V3.1.8.tar.gz: 395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370
+    - https://github.com/meganz/MEGAsync/archive/v3.5.0.0_Win.tar.gz : 09fccdabe2c16f877e68f40fbfc46d9c7ea1b8f6ea8b29dc10c92e1a5d1e2d90
+    - https://github.com/meganz/sdk/archive/v3.2.7.tar.gz: fc0bab64a45f01988b5c9956047f4e5037608ec7c39d6c2e661dfa33020c8ac1
 license    : MEGA LIMITED CODE REVIEW LICENCE
 component  : network.clients
 summary    : Sync your files to your Mega account.
@@ -16,12 +16,13 @@ builddeps  :
     - pkgconfig(libsodium)
     - pkgconfig(libuv)
     - pkgconfig(Qt5Core)
+    - pkgconfig(Qt5UiTools)
     - pkgconfig(sqlite3)
     - pkgconfig(zlib)
     - cryptopp-devel
 setup      : |
     cd $workdir/src/MEGASync/mega
-    tar -xf $sources/V3.1.2.tar.gz --strip 1 -C .
+    tar -xf $sources/v3.2.7.tar.gz --strip 1 -C .
     %autogen --without-freeimage
     cd $workdir/src
     %configure
