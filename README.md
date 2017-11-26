@@ -21,6 +21,13 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/20-11-2017/megasync-3.5.0.0-2-1-x86_64.eopkg>
 
+
+- nautilus-megasync
+
+  _Upload your files to your Mega account from nautilus._
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/26-11-2017/nautilus-megasync-3.5.0.0-1-1-x86_64.eopkg>
+
 - bookworm
 
   _A simple ebook reader_
