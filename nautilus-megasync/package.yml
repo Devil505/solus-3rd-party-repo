@@ -1,0 +1,32 @@
+name       : nautilus-megasync
+version    : 3.5.0.0
+release    : 1
+source     :
+    - https://github.com/meganz/MEGAsync/archive/v3.5.0.0_Win.tar.gz : 09fccdabe2c16f877e68f40fbfc46d9c7ea1b8f6ea8b29dc10c92e1a5d1e2d90
+license    : MEGA LIMITED CODE REVIEW LICENCE
+component  : desktop.gnome
+summary    : MEGA nautilus extension.
+description: |
+    Upload your files to your Mega account from nautilus.
+builddeps  :
+    - pkgconfig(Qt5Core)
+    - nautilus-extension-devel
+setup      : |
+    cd $workdir/src/MEGAShellExtNautilus/
+    %qmake MEGAShellExtNautilus.pro
+build      : |
+    cd $workdir/src/MEGAShellExtNautilus/
+    %make
+install    : |
+    install -dm 755 $installdir/usr/lib/nautilus/extensions-3.0/
+    install -m 755 -p $workdir/src/MEGAShellExtNautilus/libMEGAShellExtNautilus.so.1.0.0 $installdir/usr/lib/nautilus/extensions-3.0/
+    cd $workdir/src/MEGAShellExtNautilus/data/emblems
+    for size in 32x32 64x64
+    do
+        install -dm 755 $installdir/usr/share/icons/hicolor/${size}/emblems
+        install -m 644 -p ${size}/mega-{pending,synced,syncing,upload}.{icon,png} $installdir/usr/share/icons/hicolor/${size}/emblems/
+    done
+    cd $installdir/usr/lib/nautilus/extensions-3.0/
+    ln -f -s libMEGAShellExtNautilus.so.1.0.0 libMEGAShellExtNautilus.so.1.0
+    ln -f -s libMEGAShellExtNautilus.so.1.0.0 libMEGAShellExtNautilus.so.1
+    ln -f -s libMEGAShellExtNautilus.so.1.0.0 libMEGAShellExtNautilus.so
