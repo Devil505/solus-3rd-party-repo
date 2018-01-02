@@ -1,0 +1,18 @@
+name       : ciano
+version    : 0.1.8
+release    : 1
+source     :
+    - https://github.com/robertsanseries/ciano/archive/0.1.8.tar.gz : 5c57962fd33e2173d85dbcba97d2f4e2379a2fe6945171e455186f47ff23e1b3
+license    : GPL-3.0
+component  : multimedia.audio
+summary    : Multimedia converter
+description: |
+    A simple multimedia file converter.
+builddeps  :
+    - pkgconfig(granite)
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install
