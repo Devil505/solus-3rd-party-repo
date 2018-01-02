@@ -19,36 +19,25 @@
 </Description>
         <PartOf>office.viewers</PartOf>
         <Files>
-            <Path fileType="data">/opt/bookworm/book_monitor.sh</Path>
-            <Path fileType="data">/opt/bookworm/mobi_lib/mobi_dict.py</Path>
-            <Path fileType="data">/opt/bookworm/mobi_lib/mobi_html.py</Path>
-            <Path fileType="data">/opt/bookworm/mobi_lib/mobi_index.py</Path>
-            <Path fileType="data">/opt/bookworm/mobi_lib/mobi_k8proc.py</Path>
-            <Path fileType="data">/opt/bookworm/mobi_lib/mobi_ncx.py</Path>
-            <Path fileType="data">/opt/bookworm/mobi_lib/mobi_opf.py</Path>
-            <Path fileType="data">/opt/bookworm/mobi_lib/mobi_split.py</Path>
-            <Path fileType="data">/opt/bookworm/mobi_lib/mobi_uncompress.py</Path>
-            <Path fileType="data">/opt/bookworm/mobi_lib/mobi_unpack.py</Path>
-            <Path fileType="data">/opt/bookworm/mobi_lib/mobi_utils.py</Path>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/usr/share/applications/com.github.babluboy.bookworm.desktop</Path>
             <Path fileType="data">/usr/share/bookworm</Path>
-            <Path fileType="data">/usr/share/contractor/bookworm.contract</Path>
+            <Path fileType="data">/usr/share/contractor/com.github.babluboy.bookworm.contract</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/com.github.babluboy.bookworm.gschema.xml</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/bookworm.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/bookworm.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/bookworm.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/bookworm.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/bookworm.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/bookworm.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/com.github.babluboy.bookworm.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/com.github.babluboy.bookworm.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/com.github.babluboy.bookworm.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/com.github.babluboy.bookworm.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/com.github.babluboy.bookworm.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/com.github.babluboy.bookworm.png</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
             <Path fileType="data">/usr/share/metainfo/com.github.babluboy.bookworm.appdata.xml</Path>
         </Files>
     </Package>
     <History>
         <Update release="1">
-            <Date>2017-07-23</Date>
-            <Version>0.9.0</Version>
+            <Date>2018-01-02</Date>
+            <Version>0.9.9</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
             <Email>devil505linux@gmail.com</Email>
