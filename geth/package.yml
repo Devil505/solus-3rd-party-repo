@@ -1,0 +1,19 @@
+name       : geth
+version    : 1.7.3
+release    : 1
+source     :
+    -  https://github.com/ethereum/go-ethereum/archive/v1.7.3.tar.gz  : 64a9f19eeccb3c094e7f9d2d936cd2d48aee3a2cc03148b980e0462c7579a73a
+license    : LGPL-3.0
+component  : desktop.library
+summary    : Official golang implementation of the Ethereum protocol
+description: |
+    Official golang implementation of the Ethereum protocol
+builddeps  :
+    - golang
+setup      : |
+build      : |
+    make all
+install    : |
+    install -Dm755 -t $installdir/usr/bin build/bin/*
+
+
