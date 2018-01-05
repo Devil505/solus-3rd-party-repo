@@ -96,4 +96,10 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/02-01-2018/ciano-0.1.8-1-1-x86_64.eopkg>
 
+- flameshot
+
+  _Powerful yet simple to use screenshot software._
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/05-01-2018/flameshot-0.5.0-1-1-x86_64.eopkg>
+
 
