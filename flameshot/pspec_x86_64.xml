@@ -1,0 +1,39 @@
+<PISI>
+    <Source>
+        <Name>flameshot</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>desktop</PartOf>
+        <Summary xml:lang="en">Powerful yet simple to use screenshot software</Summary>
+        <Description xml:lang="en">Powerful yet simple to use screenshot software.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>flameshot</Name>
+        <Summary xml:lang="en">Powerful yet simple to use screenshot software</Summary>
+        <Description xml:lang="en">Powerful yet simple to use screenshot software.
+</Description>
+        <PartOf>desktop</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/flameshot-init.desktop</Path>
+            <Path fileType="data">/usr/share/applications/flameshot.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/interfaces/org.dharkael.Flameshot.xml</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.dharkael.Flameshot.service</Path>
+            <Path fileType="data">/usr/share/icons/flameshot.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-01-05</Date>
+            <Version>0.5.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
