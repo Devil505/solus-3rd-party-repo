@@ -19,14 +19,14 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _Easy automated syncing between your computers and your MEGA Cloud Drive._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-12-2017/megasync-3.5.3.0-3-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/27-01-2018/megasync-3.6.0.0-4-1-x86_64.eopkg>
 
 
 - nautilus-megasync
 
   _Upload your files to your Mega account from nautilus._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/02-01-2018/nautilus-megasync-3.5.3.0-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/27-01-2018/nautilus-megasync-3.6.0.0-1-1-x86_64.eopkg>
 
 - bookworm
 
@@ -101,5 +101,11 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
   _Powerful yet simple to use screenshot software._
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/05-01-2018/flameshot-0.5.0-1-1-x86_64.eopkg>
+
+- turtl
+
+ _Turtl lets you take notes, bookmark websites, and store documents for sensitive projects._
+
+ eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/27-01-2018/tutrl-0.6.4-1-1-x86_64.eopkg>
 
 
