@@ -1,6 +1,6 @@
 name       : megasync
 version    : 3.6.0.0
-release    : 4
+release    : 5
 source     :
     - https://github.com/meganz/MEGAsync/archive/v3.6.0.0_Linux.tar.gz : 4be2ff9e3c0beb7653e269e14802fc0cf82b58cd78b0dbbae469533635cd8ddc
     - https://github.com/meganz/sdk/archive/v3.3.0.tar.gz: dcfcbc4af4f3a7a7637643c5acc29de25fd7b985a870bcc3acd8fe1fc15e82c9
