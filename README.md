@@ -19,7 +19,7 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _Easy automated syncing between your computers and your MEGA Cloud Drive._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/27-01-2018/megasync-3.6.0.0-4-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/megasync-3.6.0.0-5-1-x86_64.eopkg>
 
 
 - nautilus-megasync
@@ -32,7 +32,7 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _A simple ebook reader_
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/02-01-2018/bookworm-0.9.9-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/bookworm-0.9.9-2-1-x86_64.eopkg>
 
 - frogr
 
@@ -64,37 +64,37 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _Graphical interface for command-line tool youtube-dl_
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/karim-0.1.1-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/karim-0.1.1-2-1-x86_64.eopkg>
 
 - quilter
 
   _Focus on your writing._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/quilter-1.2.1-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/quilter-1.2.1-2-1-x86_64.eopkg>
 
 - screencast
 
   _Simple screen recorder_
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/screencast-0.9.0-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/screencast-0.1.9-1-1-x86_64.eopkg>
 
 - spice-up
 
   _Spice-up is a modern and intuitive desktop presentation app based upon SpiceOfDesign's presentation concept._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-10-2017/spice-up-1.0.1-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/spice-up-1.0.1-2-1-x86_64.eopkg>
 
 - audience
 
   _Audience videos app designed for elementary OS._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/02-01-2018/audience-0.2.4-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/audience-0.2.5-2-1-x86_64.eopkg>
 
 - ciano
 
   _A simple multimedia file converter._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/02-01-2018/ciano-0.1.8-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/ciano-0.1.9-1-1-x86_64.eopkg>
 
 - flameshot
 
