@@ -36,8 +36,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2018-01-02</Date>
-            <Version>0.1.8</Version>
+            <Date>2018-01-31</Date>
+            <Version>0.1.9</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
             <Email>devil505linux@gmail.com</Email>

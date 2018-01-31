@@ -1,18 +1,20 @@
-name       : ciano
-version    : 0.1.9
-release    : 1
+name       : audience
+version    : 0.2.5
+release    : 2
 source     :
-    - https://github.com/robertsanseries/ciano/archive/0.1.9.tar.gz : 85de228b59c021bba33799c961fee780410a24626bee200b8daf3db723668cc3
+    - https://github.com/elementary/videos/archive/0.2.5.tar.gz : 4f22565033f5c44380d215c5f9c3672a8a2ad75d81af0e06b7b5a4bf18522207
 license    : GPL-3.0
-component  : multimedia.audio
-summary    : Multimedia converter
+component  : multimedia.video
+summary    : Audience videos app designed for elementary OS
 description: |
-    A simple multimedia file converter.
+    Audience videos app designed for elementary OS
 builddeps  :
+    - pkgconfig(clutter-gst-3.0)
+    - pkgconfig(clutter-gtk-1.0)
     - pkgconfig(granite)
 setup      : |
-    %meson_configure
+    %cmake
 build      : |
-    %meson_build
+    %make
 install    : |
-    %meson_install
+    %make_install
