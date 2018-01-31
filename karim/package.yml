@@ -1,6 +1,6 @@
 name       : karim
 version    : 0.1.1
-release    : 1
+release    : 2
 source     :
     - https://github.com/robertsanseries/karim/archive/0.1.1.tar.gz : 37bd69c358471a74bd281a5d55b0a5d2e0980081165a1ae7180a3cf2649463eb
 license    : GPL-3.0

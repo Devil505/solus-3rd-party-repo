@@ -1,6 +1,6 @@
 name       : bookworm
 version    : 0.9.9
-release    : 1
+release    : 2
 source     :
     - https://github.com/babluboy/bookworm/archive/0.9.9.tar.gz : a120d60281459c055bd4c444a7939248cfc2611396eabcc04768b391c702629c
 license    : GPL-3.0

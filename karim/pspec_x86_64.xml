@@ -30,8 +30,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-07-11</Date>
+        <Update release="2">
+            <Date>2018-01-31</Date>
             <Version>0.1.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>

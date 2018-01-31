@@ -35,8 +35,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-01-02</Date>
+        <Update release="2">
+            <Date>2018-01-31</Date>
             <Version>0.9.9</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
