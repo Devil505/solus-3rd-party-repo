@@ -1,6 +1,6 @@
 name       : spice-up
 version    : 1.0.1
-release    : 1
+release    : 2
 source     :
     - https://github.com/Philip-Scott/Spice-up/archive/1.0.1.tar.gz : 2d2a598c9b61ff0ae11b73709957cda18c82879181c986219bb07dbca89b5054
 license    : GPL-3.0

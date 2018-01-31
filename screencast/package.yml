@@ -1,8 +1,8 @@
 name       : screencast
-version    : 0.9.0
+version    : 0.1.9
 release    : 1
 source     :
-    - https://github.com/artemanufrij/screencast/archive/0.1.8.tar.gz : 51970c8daf4f95a2ae4a7d048343164cdba9030de4c31618737fe8ef7177f78d
+    - https://github.com/artemanufrij/screencast/archive/0.1.9.tar.gz : 52b5a4824b5fe2ff9cddbbe34604c560780fa84a652e76d6eaff19a072c0d7b0
 license    : GPL-3.0
 component  : multimedia.video
 summary    : Simple screen recorder
