@@ -108,4 +108,10 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/27-01-2018/tutrl-0.6.4-1-1-x86_64.eopkg>
 
+- harcode-tray
+
+ _The script will automatically detect your default theme, the correct icon size, the hard-coded applications, the correct icons for each indicator and fix them. All that with the possibility to revert to the original icons._
+
+ eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/21-02-2018/hardcode-tray-4.2-1-1-x86_64.eopkg>
+
 
