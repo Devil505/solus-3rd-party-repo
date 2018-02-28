@@ -32,7 +32,7 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _A simple ebook reader_
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/bookworm-0.9.9-2-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-02-2018/bookworm-1.0.0-2-1-x86_64.eopkg>
 
 - frogr
 
@@ -96,11 +96,11 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/ciano-0.1.9-1-1-x86_64.eopkg>
 
-- flameshot
+- geth
 
-  _Powerful yet simple to use screenshot software._
+  _Official golang implementation of the Ethereum protocol._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/05-01-2018/flameshot-0.5.0-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-02-2018/geth-1.8.1-2-1-x86_64.eopkg>
 
 - turtl
 
