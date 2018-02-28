@@ -114,4 +114,27 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/21-02-2018/hardcode-tray-4.2-1-1-x86_64.eopkg>
 
+- slsk
+
+  _Steam Linux Swiss Knife - A backup utility and database for Linux Steam games _
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-02-2018/slsk-1.3.1.1-1-1-x86_64.eopkg>
+
+- notejot
+
+  _Stupidly-simple sticky notes applet._
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-02-2018/notejot-1.3.8-1-1-x86_64.eopkg>
+
+- openresolv
+
+  _resolv.conf management framework (resolvconf)_
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-02-2018/openresolv-3.9.0-1-1-x86_64.eopkg>
+
+- eradio
+
+  _A minimalist and powerful radio player._
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-02-2018/eradio-2.0.4-1-1-x86_64.eopkg>
 
