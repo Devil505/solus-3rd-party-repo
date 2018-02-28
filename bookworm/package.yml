@@ -1,8 +1,8 @@
 name       : bookworm
-version    : 0.9.9
-release    : 2
+version    : 1.0.0
+release    : 3
 source     :
-    - https://github.com/babluboy/bookworm/archive/0.9.9.tar.gz : a120d60281459c055bd4c444a7939248cfc2611396eabcc04768b391c702629c
+    - https://github.com/babluboy/bookworm/archive/1.0.0.tar.gz : 8dacaab3531c189836f7ef65dc69a84de9d03e467e68275bb6c5a31b17f9fbc5
 license    : GPL-3.0
 component  : office.viewers
 summary    : A simple ebook reader
