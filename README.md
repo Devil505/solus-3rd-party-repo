@@ -116,7 +116,7 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
 - slsk
 
-  _Steam Linux Swiss Knife - A backup utility and database for Linux Steam games _
+  _Steam Linux Swiss Knife - A backup utility and database for Linux Steam games._
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-02-2018/slsk-1.3.1.1-1-1-x86_64.eopkg>
 
