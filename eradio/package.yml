@@ -1,0 +1,29 @@
+name       : eradio
+version    : 2.0.4
+release    : 1
+source     :
+    - https://github.com/DreamDevel/eRadio/archive/v2.0.4.tar.gz : 02e131037bf50eed8db06d5e38b15c44c47b82f55123840b00ed6abc9e09e69e
+license    : GPL-3.0
+component  : multimedia.audio
+summary    : A minimalist and powerful radio player
+description: |
+    A minimalist and powerful radio player.
+builddeps  :
+    - pkgconfig(gee-0.8)
+    - pkgconfig(granite)
+    - pkgconfig(gstreamer-1.0)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(json-glib-1.0)
+    - pkgconfig(libnotify)
+    - pkgconfig(libsoup-2.4)
+    - pkgconfig(libxml-2.0)
+    - pkgconfig(sqlheavy-0.1)
+    - pkgconfig(sqlite3)
+    - cmake
+    - vala
+setup      : |
+build      : |
+    %cmake
+    %make
+install    : |
+    %make_install

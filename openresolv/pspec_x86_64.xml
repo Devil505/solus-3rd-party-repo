@@ -1,0 +1,42 @@
+<PISI>
+    <Source>
+        <Name>openresolv</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Packager>
+        <License>BSD</License>
+        <PartOf>network</PartOf>
+        <Summary xml:lang="en">resolv.conf management framework (resolvconf)</Summary>
+        <Description xml:lang="en">Enter resolvconf, the middleman between the network configuration services and /etc/resolv.conf. resolvconf itself is just a script that stores, removes and lists a full resolv.conf generated for the interface. It then calls all the helper scripts it knows about so it can configure the real /etc/resolv.conf and optionally any local nameservers other than libc.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>openresolv</Name>
+        <Summary xml:lang="en">resolv.conf management framework (resolvconf)</Summary>
+        <Description xml:lang="en">Enter resolvconf, the middleman between the network configuration services and /etc/resolv.conf. resolvconf itself is just a script that stores, removes and lists a full resolv.conf generated for the interface. It then calls all the helper scripts it knows about so it can configure the real /etc/resolv.conf and optionally any local nameservers other than libc.
+</Description>
+        <PartOf>network</PartOf>
+        <Files>
+            <Path fileType="config">/etc/resolvconf.conf</Path>
+            <Path fileType="data">/libexec/resolvconf/dnsmasq</Path>
+            <Path fileType="data">/libexec/resolvconf/libc</Path>
+            <Path fileType="data">/libexec/resolvconf/named</Path>
+            <Path fileType="data">/libexec/resolvconf/pdnsd</Path>
+            <Path fileType="data">/libexec/resolvconf/unbound</Path>
+            <Path fileType="data">/man5/resolvconf.conf.5</Path>
+            <Path fileType="data">/man8/resolvconf.8</Path>
+            <Path fileType="executable">/sbin</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-02-27</Date>
+            <Version>3.9.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

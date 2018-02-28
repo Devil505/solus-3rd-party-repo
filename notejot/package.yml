@@ -1,0 +1,21 @@
+name       : notejot
+version    : 1.3.8
+release    : 1
+source     :
+    - https://github.com/lainsce/notejot/archive/1.3.8.tar.gz : 92097d009df85dc8e7373d48ac610a08b52ea1c4a789f53ba7da1e216b27e9e6
+license    : GPL-3.0
+component  : desktop
+summary    : Stupidly-simple sticky notes applet. 
+description: |
+    Stupidly-simple sticky notes applet. 
+builddeps  :
+    - pkgconfig(granite)
+    - pkgconfig(gtk+-3.0)
+    - meson
+    - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install
