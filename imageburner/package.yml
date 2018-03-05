@@ -1,0 +1,23 @@
+name       : imageburner
+version    : 0.1.12
+release    : 1
+source     :
+    - https://github.com/artemanufrij/imageburner/archive/0.1.12.tar.gz : 1d61bc3cf9e79ab4658cee7ab9a920797d1241986d4bf46239598cb1a494b7f7
+license    : GPL-3.0
+component  : multimedia
+summary    : A simple imageburner
+description: |
+    A simple imageburner.
+builddeps  :
+    - pkgconfig(granite)
+    - cmake
+    - vala
+setup      : |
+    %apply_patches
+    mkdir cmake
+    install -m 00644 $pkgfiles/cmake/*.cmake cmake/.
+    %cmake .
+build      : |
+    %make
+install    : |
+    %make_install
