@@ -1,0 +1,26 @@
+name       : showmypictures
+version    : 0.2.2
+release    : 1
+source     :
+    - https://github.com/artemanufrij/showmypictures/archive/0.2.2.tar.gz : 67ac51829fc19dec4481639f59357485e25799f69a74234e75724bb763289b9e
+license    : GPL-2.0
+component  : multimedia.graphics
+summary    : An image viewer for managing local image files
+description: |
+    An image viewer for managing local image files
+builddeps  :
+    - pkgconfig(gexiv2)
+    - pkgconfig(granite)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libraw)
+    - pkgconfig(sqlite3)
+    - vala
+setup      : |
+    %apply_patches
+    mkdir cmake
+    install -m 00644 $pkgfiles/cmake/*.cmake cmake/.
+    %cmake .
+build      : |
+    %make
+install    : |
+    %make_install

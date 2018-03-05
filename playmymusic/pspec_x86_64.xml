@@ -1,0 +1,46 @@
+<PISI>
+    <Source>
+        <Name>playmymusic</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>multimedia.audio</PartOf>
+        <Summary xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Summary>
+        <Description xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>playmymusic</Name>
+        <Summary xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Summary>
+        <Description xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s
+</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/com.github.artemanufrij.playmymusic.desktop</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/com.github.artemanufrij.playmymusic.gschema.xml</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/com.github.artemanufrij.playmymusic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/com.github.artemanufrij.playmymusic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/com.github.artemanufrij.playmymusic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/com.github.artemanufrij.playmymusic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/com.github.artemanufrij.playmymusic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/com.github.artemanufrij.playmymusic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/com.github.artemanufrij.playmymusic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/com.github.artemanufrij.playmymusic-symbolic.svg</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/metainfo/com.github.artemanufrij.playmymusic.appdata.xml</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-05</Date>
+            <Version>0.6.4</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

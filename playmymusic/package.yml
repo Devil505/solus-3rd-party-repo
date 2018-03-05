@@ -1,0 +1,28 @@
+name       : playmymusic
+version    : 0.6.4
+release    : 1
+source     :
+    - https://github.com/artemanufrij/playmymusic/archive/0.6.4.tar.gz : bc144a498b99dab8f6e1f0daeb7bf14233fc7261eb793cba3203f3d179c96163
+license    : GPL-2.0
+component  : multimedia.audio
+summary    : A music player for listening to local music files, online radios, and Audio CD's
+description: |
+    A music player for listening to local music files, online radios, and Audio CD's
+builddeps  :
+    - pkgconfig(gee-0.8)
+    - pkgconfig(gstreamer-plugins-base-1.0)
+    - pkgconfig(granite)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libsoup-2.4)
+    - pkgconfig(sqlite3)
+    - pkgconfig(taglib)
+    - vala
+setup      : |
+    %apply_patches
+    mkdir cmake
+    install -m 00644 $pkgfiles/cmake/*.cmake cmake/.
+    %cmake .
+build      : |
+    %make
+install    : |
+    %make_install
