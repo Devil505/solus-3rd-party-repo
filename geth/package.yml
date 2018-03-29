@@ -1,8 +1,8 @@
 name       : geth
-version    : 1.8.1
-release    : 2
+version    : 1.8.3
+release    : 3
 source     :
-    -  https://github.com/ethereum/go-ethereum/archive/v1.8.1.tar.gz  : be8bb83619f83a2e3acadbc82d2ae8064f8b0dbce17d61de72fdbf0a03480e75
+    -  https://github.com/ethereum/go-ethereum/archive/v1.8.3.tar.gz  : 6c935e33006ab26c69dc083c7b471759812cd8cef5e1ec783f005d3c58a98621
 license    : LGPL-3.0
 component  : desktop.library
 summary    : Official golang implementation of the Ethereum protocol
@@ -10,7 +10,6 @@ description: |
     Official golang implementation of the Ethereum protocol
 builddeps  :
     - golang
-setup      : |
 build      : |
     make all
 install    : |
