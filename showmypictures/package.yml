@@ -1,8 +1,8 @@
 name       : showmypictures
-version    : 0.2.2
+version    : 0.2.5
 release    : 1
 source     :
-    - https://github.com/artemanufrij/showmypictures/archive/0.2.2.tar.gz : 67ac51829fc19dec4481639f59357485e25799f69a74234e75724bb763289b9e
+    - https://github.com/artemanufrij/showmypictures/archive/0.2.5.tar.gz : 82e463f98bc01c19e06cd3f886c15300cc45fffb1ee82631387c7acf22e41ad9
 license    : GPL-2.0
 component  : multimedia.graphics
 summary    : An image viewer for managing local image files
@@ -14,6 +14,7 @@ builddeps  :
     - pkgconfig(gtk+-3.0)
     - pkgconfig(libraw)
     - pkgconfig(sqlite3)
+    - pkgconfig(webkit2gtk-4.0)
     - vala
 setup      : |
     %apply_patches

@@ -5,7 +5,7 @@
             <Name>Devil505</Name>
             <Email>devil505linux@gmail.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>multimedia.audio</PartOf>
         <Summary xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Summary>
         <Description xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s
@@ -36,8 +36,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2018-03-05</Date>
-            <Version>0.6.4</Version>
+            <Date>2018-03-29</Date>
+            <Version>0.6.7</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
             <Email>devil505linux@gmail.com</Email>
