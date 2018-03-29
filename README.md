@@ -89,7 +89,7 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _Official golang implementation of the Ethereum protocol._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-02-2018/geth-1.8.1-2-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/29-03-2018/geth-1.8.3-3-1-x86_64.eopkg>
 
 - turtl
 
@@ -101,7 +101,7 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _Steam Linux Swiss Knife - A backup utility and database for Linux Steam games._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-02-2018/slsk-1.3.1.1-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/29-03-2018/slsk-1.3.2.1-1-1-x86_64.eopkg>
 
 - notejot
 
@@ -131,11 +131,11 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _A music player for listening to local music files, online radios, and Audio CD's._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/05-03-2017/playmymusic-0.6.4-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/29-03-2018/playmymusic-0.6.7-1-1-x86_64.eopkg>
 
 - showmypictures
 
   _An image viewer for managing local image files._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/05-03-2017/showmypictures-0.2.2-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/29-03-2018/showmypictures-0.2.5-1-1-x86_64.eopkg>
 
