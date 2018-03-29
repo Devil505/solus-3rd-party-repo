@@ -28,11 +28,6 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/27-01-2018/nautilus-megasync-3.6.0.0-1-1-x86_64.eopkg>
 
-- bookworm
-
-  _A simple ebook reader_
-
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/28-02-2018/bookworm-1.0.0-2-1-x86_64.eopkg>
 
 - frogr
 
@@ -78,12 +73,6 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/screencast-0.1.9-1-1-x86_64.eopkg>
 
-- spice-up
-
-  _Spice-up is a modern and intuitive desktop presentation app based upon SpiceOfDesign's presentation concept._
-
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/31-01-2018/spice-up-1.0.1-2-1-x86_64.eopkg>
-
 - audience
 
   _Audience videos app designed for elementary OS._
@@ -107,12 +96,6 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
   _Turtl lets you take notes, bookmark websites, and store documents for sensitive projects._
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/27-01-2018/tutrl-0.6.4-1-1-x86_64.eopkg>
-
-- harcode-tray
-
-  _The script will automatically detect your default theme, the correct icon size, the hard-coded applications, the correct icons for each indicator and fix them. All that with the possibility to revert to the original icons._
-
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/21-02-2018/hardcode-tray-4.2-1-1-x86_64.eopkg>
 
 - slsk
 
