@@ -125,17 +125,23 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _A simple imageburner._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/05-03-2017/imageburner-0.1.12-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/08-04-2018/imageburner-0.1.15-1-1-x86_64.eopkg>
 
 - playmymusic
 
   _A music player for listening to local music files, online radios, and Audio CD's._
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/29-03-2018/playmymusic-0.6.7-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/08-04-2018/playmymusic-1.0.1-1-1-x86_64.eopkg>
 
 - showmypictures
 
   _An image viewer for managing local image files._
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/29-03-2018/showmypictures-0.2.5-1-1-x86_64.eopkg>
+
+- budgie-extras
+
+  _Budgie plugins from Ubuntu Budgie (be aware, not all plugins are working, just some of them)_
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/08-04-2018/budgie-extra-0.4.3-1-1-x86_64.eopkg>
 
