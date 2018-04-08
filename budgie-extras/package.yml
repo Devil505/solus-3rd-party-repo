@@ -1,0 +1,24 @@
+name       : budgie-extra
+version    : 0.4.3
+release    : 1
+source     :
+    - https://github.com/UbuntuBudgie/budgie-extras/archive/v0.4.3.tar.gz : 07abaaae463e7b6a7b41ce225a66751ae219824c29dbb7f758f7cea7d4faf544
+license    : GPL-3-or-later
+summary    : additional Budgie Desktop enhancements for the user experience
+component  : desktop.budgie
+builddeps  :
+    - meson
+rundeps  :
+    - budgie-desktop
+    - python3-pyudev
+    - xinput
+    - xrandr
+    - xprop
+description: |
+    additional Budgie Desktop enhancements for the user experience
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

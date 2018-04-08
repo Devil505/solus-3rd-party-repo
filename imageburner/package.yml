@@ -1,8 +1,8 @@
 name       : imageburner
-version    : 0.1.12
+version    : 0.1.15
 release    : 1
 source     :
-    - https://github.com/artemanufrij/imageburner/archive/0.1.12.tar.gz : 1d61bc3cf9e79ab4658cee7ab9a920797d1241986d4bf46239598cb1a494b7f7
+    - https://github.com/artemanufrij/imageburner/archive/0.1.15.tar.gz : 23e1ef8876f828e9ea0f21305a93754ba6d9185abaa209b0b5fb4ebc7c121648
 license    : GPL-3.0
 component  : multimedia
 summary    : A simple imageburner

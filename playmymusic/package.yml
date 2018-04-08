@@ -1,8 +1,8 @@
 name       : playmymusic
-version    : 0.6.7
+version    : 1.0.1
 release    : 1
 source     :
-    - https://github.com/artemanufrij/playmymusic/archive/0.6.7.tar.gz : e2657afeb96cdd37d6157dda76bbdf510c445b8365ec907bd462487543c133ef
+    - https://github.com/artemanufrij/playmymusic/archive/1.0.1.tar.gz : 1e7e1dd9df44d46e6148c75636cb76e3944b38d0f8b868a2dee83c832e677355
 license    : GPL-2.0-or-later
 component  : multimedia.audio
 summary    : A music player for listening to local music files, online radios, and Audio CD's
@@ -17,13 +17,11 @@ builddeps  :
     - pkgconfig(libsoup-2.4)
     - pkgconfig(sqlite3)
     - pkgconfig(taglib)
+    - meson
     - vala
 setup      : |
-    %apply_patches
-    mkdir cmake
-    install -m 00644 $pkgfiles/cmake/*.cmake cmake/.
-    %cmake .
+    %meson_configure
 build      : |
-    %make
+    %meson_build
 install    : |
-    %make_install
+    %meson_install
