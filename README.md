@@ -143,5 +143,17 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _Budgie plugins from Ubuntu Budgie (be aware, not all plugins are working, just some of them)_
 
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/08-04-2018/budgie-extra-0.4.3-1-1-x86_64.eopkg>
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/12-05-2018/budgie-extra-0.5.0-1-1-x86_64.eopkg>
+
+- budgie-brightness-applet
+
+  _Brightness control applet for budgie desktop._
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/12-05-2018/budgie-brightness-applet-0.2.1-1-1-x86_64.eopkg>
+
+- budgie-weather-applet
+
+  _A weather applet for Budgie Desktop_
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/12-05-2018/budgie-weather-applet-0.0.1-1-1-x86_64.eopkg>
 
