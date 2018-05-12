@@ -1,8 +1,8 @@
 name       : budgie-extra
-version    : 0.4.3
+version    : 0.5.0
 release    : 1
 source     :
-    - https://github.com/UbuntuBudgie/budgie-extras/archive/v0.4.3.tar.gz : 07abaaae463e7b6a7b41ce225a66751ae219824c29dbb7f758f7cea7d4faf544
+    - https://github.com/UbuntuBudgie/budgie-extras/archive/v0.5.0.tar.gz : ced39bf827795b88bc60d280c01233079ebd3e2519bbccd7646a5459842fc005
 license    : GPL-3-or-later
 summary    : additional Budgie Desktop enhancements for the user experience
 component  : desktop.budgie

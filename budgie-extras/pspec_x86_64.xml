@@ -34,6 +34,8 @@
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-hcorners/bhctools.py</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-hcorners/budgie_hcorners.py</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-hcorners/showdesktop</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-kangaroo/BudgieKangaroo.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-kangaroo/budgie_kangaroo.py</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-keyboard-autoswitch/KeyboardAutoSwitch.plugin</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-keyboard-autoswitch/budgie-keyboard-autoswitch.py</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-quicknote/BudgieQuickNote.plugin</Path>
@@ -58,6 +60,7 @@
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/moveto.sh</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/set_keys.py</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprv</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprv_hc</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprviews_backgrounder</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprviews_panelrunner</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprviews_tools.py</Path>
@@ -81,6 +84,7 @@
             <Path fileType="data">/usr/share/pixmaps/budgie-countdown-symbolic.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/budgie-dropby-idle.png</Path>
             <Path fileType="data">/usr/share/pixmaps/budgie-dropby-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-foldertrack-symbolic.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/budgie-hotcorners-symbolic.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/budgie-keyboard-autoswitch-symbolic.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/budgie-quicknote-symbolic.svg</Path>
@@ -124,8 +128,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2018-04-05</Date>
-            <Version>0.4.3</Version>
+            <Date>2018-05-12</Date>
+            <Version>0.5.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
             <Email>devil505linux@gmail.com</Email>

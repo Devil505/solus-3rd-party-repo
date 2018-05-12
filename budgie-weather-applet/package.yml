@@ -1,0 +1,27 @@
+name       : budgie-weather-applet
+version    : 0.0.1
+release    : 1
+source     :
+    - https://github.com/ilgarmehmetali/budgie-weather-applet/archive/v0.0.1.tar.gz : fd8333992638c809a5d49110cc50e7f06d712271cade58070fda1df13982c08f
+license    : GPL-2-or-later
+summary    : A weather applet for Budgie Desktop
+component  : desktop.budgie
+builddeps  :
+    - pkgconfig(budgie-1.0)
+    - pkgconfig(gobject-introspection-1.0)
+    - pkgconfig(gweather-3.0) 
+    - pkgconfig(libpeas-1.0)
+    - meson
+    - ninja
+    - vala
+rundeps  :
+    - budgie-desktop
+description: |
+    A weather applet for Budgie Desktop. OpenWeatherMap is used for getting weather data.
+setup      : |
+    %patch -p1 < $pkgfiles/0001-libgweather-compat.patch
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

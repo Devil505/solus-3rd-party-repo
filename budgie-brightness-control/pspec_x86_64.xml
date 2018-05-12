@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>budgie-brightness-applet</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Packager>
+        <License>GPL-2-or-later</License>
+        <PartOf>desktop.budgie</PartOf>
+        <Summary xml:lang="en">Brightness control applet for budgie desktop</Summary>
+        <Description xml:lang="en">This applet allows you to controll screen brightness.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>budgie-brightness-applet</Name>
+        <Summary xml:lang="en">Brightness control applet for budgie desktop</Summary>
+        <Description xml:lang="en">This applet allows you to controll screen brightness.
+</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-brightness-control-applet/BudgieBrightnessControlApplet.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-brightness-control-applet/libbudgiebrigtnesscontrolapplet.so</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-05-02</Date>
+            <Version>0.2.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505linux@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
