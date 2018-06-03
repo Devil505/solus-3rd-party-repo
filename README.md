@@ -152,7 +152,7 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
 - tootle
 
-  _GTK3 client for Mastodon _
+  _GTK3 client for Mastodon_
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/03-06-2018/tootle-0.1.3-1-1-x86_64.eopkg>
 
