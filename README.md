@@ -28,13 +28,6 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/27-01-2018/nautilus-megasync-3.6.0.0-1-1-x86_64.eopkg>
 
-
-- frogr
-
-  _A flickr remote organizer for GNOME_
-
-  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/13-08-2017/frogr-1.3-1-1-x86_64.eopkg>
-
 - gimp-lensfun
 
   _GIMP plugin for correcting lens distortion using the lensfun library and database._
@@ -156,4 +149,10 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
   _A weather applet for Budgie Desktop_
 
   eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/12-05-2018/budgie-weather-applet-0.0.1-1-1-x86_64.eopkg>
+
+- tootle
+
+  _GTK3 client for Mastodon _
+
+  eopkg: <https://github.com/Devil505/solus-3rd-party-repo/releases/download/03-06-2018/tootle-0.1.3-1-1-x86_64.eopkg>
 
