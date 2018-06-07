@@ -1,8 +1,0 @@
-[Desktop Entry]
-Categories=Network;
-Type=Application
-Exec=/opt/turtl/turtl
-Name=Turtl
-Comment=Turtl lets you take notes, bookmark websites, and store documents for sensitive projects.
-GenericName=Turtl
-Icon=turtl
